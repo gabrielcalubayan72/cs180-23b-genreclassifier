@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LiriKlas</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+	</head>
+	<body>
+		<div class="container-head">
+			<p class="title">LiriKlas</p>
+			<p class="subtitle">Filipino song lyric genre detector</p>
+		</div>
+		<div class="container-body">
+			<form action="{{ url_for('predict')}}" method="post" class="panel">
+				<textarea
+					name="lyrics"
+					placeholder="Paste song lyrics in Filipino to get started..."
+				>
+{{ lyrics }}</textarea
+				>
+				<button type="submit">Get Genre</button>
+			</form>
+			<div class="container-col">
+				<div class="panel">
+					<p class="result-label">Your song's genre:</p>
+					<p class="result">{{ prediction }}</p>
+				</div>
+				<div class="panel" id="info">
+					<p class="info">
+						<b>CS 180 THU Project</b>
+						<br />
+						Gabriel Calubayan
+						<br />
+						Nina Sapitula
+						<br />
+						Kaila Ondoy
+						<br /><br />
+
+						This project utilizes the Naive Bayes Classifier to analyze song lyrics and
+						assign genres.
+						<br /><br />
+						We aim to:
+						<br /><br />
+						Aid in the preservation of Filipino culture in digitizing and archiving
+						songs with genre metadata.
+						<br /><br />
+						Assist songwriters by classifying their music's genre and providing context
+						for artistic identity, community, and stylistic exploration.
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
