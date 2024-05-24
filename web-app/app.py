@@ -5,8 +5,8 @@ import pickle
 app = Flask(__name__)
 
 #Load the trained model and vectorizer
-model = pickle.load(open('web-app\\model.pkl', 'rb'))
-vectorizer = pickle.load(open('web-app\\vectorizer.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
+vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
 
 #Define the route to be home
 @app.route('/')
