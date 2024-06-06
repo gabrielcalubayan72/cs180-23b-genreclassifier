@@ -1,5 +1,5 @@
-### LiriKlas
-by Gabriel Aldrich S. Calubayan, Nina Patricia Sapitula, and Kaila Ondoy in partial fulfillment of CS 180 of UP Diliman Department of Computer Science
+# LiriKlas
+by Gabriel Aldrich S. Calubayan, Nina Patricia Sapitula, and Kaila Ondoy in partial fulfillment of CS 180 Artificial Intelligence course of the BS Computer Science program by the Department of Computer Science of the University of the Philippines Diliman.
 
 ## Relevant links
 * Project proposal: https://drive.google.com/file/d/1DK5hbnfoKyiLfj_nhCwITaDrExvWSa-P/view?usp=sharing
