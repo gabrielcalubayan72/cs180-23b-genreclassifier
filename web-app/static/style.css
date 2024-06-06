@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Jura:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	height: 100%;
+}
+
+.container-head {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: stretch;
+	gap: 1rem;
+}
+
+.container-body {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: stretch;
+	gap: 1rem;
+}
+
+.container-col {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	align-content: stretch;
+	gap: 1rem;
+}
+
+.title {
+	font-family: "Audiowide", sans-serif;
+	font-size: 3.5rem;
+	background: linear-gradient(#d47f8c, #78a0ef);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	text-align: center;
+	margin: 0;
+}
+
+.subtitle {
+	font-family: "Jura", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 900;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	margin: 0;
+}
+
+.panel {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-end;
+	align-content: stretch;
+	gap: 1rem;
+
+	background-color: white;
+	box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+	border-radius: 1rem;
+	padding: 2rem;
+}
+
+textarea {
+	background-color: white;
+	border: none;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
+
+	height: 29rem;
+	width: 22rem;
+	resize: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+button {
+	background-color: #78a0ef;
+	border: none;
+	border-radius: 1rem;
+	padding: 0.5rem 1rem;
+
+	font-family: "Jura", sans-serif;
+	font-size: 1rem;
+	font-weight: 900;
+	color: white;
+
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #5370b8;
+}
+
+.result-label {
+	align-self: center;
+
+	font-family: "Jura", sans-serif;
+	font-size: 1.1rem;
+	font-weight: 900;
+	color: rgba(0, 0, 0, 0.5);
+	margin: 0;
+}
+
+.result {
+	align-self: center;
+
+	font-family: "Audiowide", sans-serif;
+	font-size: 2rem;
+	font-weight: 900;
+	color: #78a0ef;
+	margin: 0;
+}
+
+.info {
+	font-family: "Montserrat", sans-serif;
+	font-size: 0.8rem;
+	color: rgba(0, 0, 0, 0.5);
+	margin: 0;
+
+	width: 10rem;
+}
